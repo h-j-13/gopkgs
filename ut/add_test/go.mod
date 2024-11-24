@@ -1,8 +1,9 @@
-module github.com/h-j-13/gopkgs/ut/add
+module github.com/h-j-13/gopkgs/ut/add_test
 
 go 1.22
 
 require (
+	github.com/h-j-13/gopkgs/ut/add v0.0.0-20241124083826-2eb1c274e4f8
 	github.com/smartystreets/goconvey v1.8.1
 	github.com/stretchr/testify v1.10.0
 )

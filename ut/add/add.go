@@ -12,3 +12,10 @@ func Add(a, b interface{}) (c interface{}) {
 
 	return va + vb
 }
+
+func Abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
